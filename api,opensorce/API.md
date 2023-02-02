@@ -264,3 +264,5 @@ A**uthorization**
 [[Percent Encoding] 왜 때문에 URL Encoding?](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=j880825&logNo=221231640609)
 
 [HTTP multipart/form-data 란?](https://velog.io/@shin6403/HTTP-multipartform-data-%EB%9E%80)
+
+23.02.02 업로드

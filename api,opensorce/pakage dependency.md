@@ -32,3 +32,5 @@
 [Apple Developer Documentation](https://developer.apple.com/documentation/packagedescription/package/dependency)
 
 [Swift Package Manager 적용기](https://tech.kakao.com/2022/06/02/swift-package-manager/)
+
+23.02.02 업로드

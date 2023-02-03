@@ -17,6 +17,7 @@
     5. Package Dependencies 목록에 Package 추가됨
     6. 확인 : 선택한 Targe에서 General > Frameworks, Libraries, and Embedded Content
 - Package 생성하기
+    - 내부 모듈을 만들거나 어떤 코드를 publish 할 때 사용됨
     1. Xcode 툴로 생성
         1. File > New > Package 선택
     2. 터미널 명령어로 생성하기

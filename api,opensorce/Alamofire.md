@@ -2,7 +2,6 @@
 - [Alamofire](#alamofire)
     + [기본 세팅](#기본-세팅)
     + [주요 기능](#주요-기능)
-    + [기본 통신](#기본-통신)
     + [1. Request](#1-request)
     + [1.1 GET](#11-get)
     + [1.2 POST](#12-post)
@@ -51,8 +50,6 @@
 - DataResponse
 
 와 같은 클래스 및 구조체가 포함됨
-
-### 기본 통신
 
 ### 1. Request
 
@@ -273,3 +270,5 @@ AF.download(url, method: .get, parameters: nil, encoding: JSONEncoding.default, 
 [HTTP 응답 코드 종류 && HTTP 메소드 종류](https://gyrfalcon.tistory.com/entry/HTTP-%EC%9D%91%EB%8B%B5-%EC%BD%94%EB%93%9C-%EC%A2%85%EB%A5%98-HTTP-%EB%A9%94%EC%86%8C%EB%93%9C-%EC%A2%85%EB%A5%98)
 
 [Http Method 란? (GET, POST, PUT, DELETE)](https://velog.io/@yh20studio/CS-Http-Method-%EB%9E%80-GET-POST-PUT-DELETE)
+
+[def]: #주요-기능

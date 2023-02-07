@@ -157,10 +157,7 @@ AF.request(URL).reponse()
 
 ### 3. Validation
 
-<aside>
 💡 .validate()를 호출함으로써 요청에 대한 유효성 검사 실시
-
-</aside>
 
 ```swift
 AF.request(URL)

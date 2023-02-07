@@ -268,4 +268,4 @@ AF.download(url, method: .get, parameters: nil, encoding: JSONEncoding.default, 
 
 [Http Method 란? (GET, POST, PUT, DELETE)](https://velog.io/@yh20studio/CS-Http-Method-%EB%9E%80-GET-POST-PUT-DELETE)
 
-[def]: #주요-기능
+23.02.07 업로드

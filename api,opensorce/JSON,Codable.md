@@ -40,7 +40,7 @@ public typealias Codable = Decodable & Encodable
         ```swift
         struct Location: Codable {
             var street: String
-        }
+            
             enum CodingKeys: String, CodingKey {
                 case address = "street"
             }

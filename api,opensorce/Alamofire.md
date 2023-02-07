@@ -1,3 +1,21 @@
+## 목차
+- [Alamofire](#alamofire)
+    + [기본 세팅](#기본-세팅)
+    + [주요 기능](#주요-기능)
+    + [기본 통신](#기본-통신)
+    + [1. Request](#1-request)
+    + [1.1 GET](#11-get)
+    + [1.2 POST](#12-post)
+    + [2. Response](#2-response)
+    + [2.1 Response Handler](#21-response-handler)
+    + [3. Validation](#3-validation)
+    + [4. Data Upload](#4-data-upload)
+    + [4.1 데이터 전달](#41-데이터-전달)
+    + [5. Data Download](#5-data-download)
+- [참고](#참고)
+
+---
+
 # Alamofire
 
 💡 iOS, macOS를 위한 swift 기반 HTTP 네트워킹 라이브러리

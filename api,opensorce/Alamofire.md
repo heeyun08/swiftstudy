@@ -37,7 +37,7 @@
 - AF.upload
     - 다중 부분, 스트림, 파일 또는 데이터 방법으로 파일을 업로드
 - AF.dounload
-    - 파일을 다운로드하거나 이미 진행 중은 다운로드를 재개
+    - 파일을 다운로드하거나 이미 진행 중인 다운로드를 재개
 - AF.request
     - 파일 전송과 관련되지 않은 기타 HTTP 요청
 
@@ -95,7 +95,7 @@ AF.request(url,
     .validate(statusCode: 200..<300)
     .responseJSON { (json) in
         print(json)
-		  }
+	}
 ```
 
 - url : 요청할 url
@@ -121,14 +121,14 @@ AF.request(url,
            headers: ["Content-Type":"application/json", "Accept":"application/json"])
 	.responseJSON { response in
 
-	/** 서버로부터 받은 데이터 활용 */
-    switch response.result {
-    case .success(let data):
+	    /** 서버로부터 받은 데이터 활용 */
+        switch response.result {
+        case .success(let data):
 			print("post 성공")
 		case .failure(let error):
 			print("post 실패")
-	}
-}
+	    }
+    }
 ```
 
 ### 2. Response
@@ -178,12 +178,12 @@ AF.upload(multipartFormData: { multipartData in
     	 headers: ["Content-Type" : "multipart/form-data"])
     .response { response in
     
-    if response.error != nil {
+        if response.error != nil {
 			print("upload fail")
-	} else{
+	    } else {
 			print("upload success")
-	}
-}
+	    }
+    }
 ```
 
 - 파일을 업로드 하거나 다운로드할 때는 Content-Type을 multipart/form-data 로 작성해야 함
@@ -242,7 +242,7 @@ AF.download(url, method: .get, parameters: nil, encoding: JSONEncoding.default, 
         }else{
             print("파일다운로드 완료")
         }
-}
+    }
 ```
 
 # 참고

@@ -126,7 +126,7 @@ AF.request(url,
     case .success(let data):
 			print("post 성공")
 		case .failure(let error):
-			print("post 실패"
+			print("post 실패")
 	}
 }
 ```
